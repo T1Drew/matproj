@@ -1,0 +1,112 @@
+body,html {
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Signika', cursive;
+}
+
+nav li a {
+    font-family: 'Arima Madurai', cursive;
+}
+
+body {
+    font-family: 'Arimo', sans-serif;
+}
+
+
+#home {
+    background-color: #f6f7f7;
+    background-image: url(assets/bg2.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    z-index: 2;
+    height: 100vh;
+}
+
+.welcome-text {
+    width: 80%;
+    margin: 0 10%;
+    height: 100%;
+}
+
+.welcome-text .welcome {
+    margin: 0 auto;
+}
+
+#about {
+    height: 100vh;
+    background-image: linear-gradient(rgba(255,255,255,0.3),
+    rgba(255,255,255,0.3)
+    ), url(assets/sec2.jpg);
+    background-position: left 15px center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+}
+
+.section-intro {
+    margin-top: 5em;
+}
+
+section.black {
+    padding-top: 25px;
+}
+
+
+.carousel-item p {
+    padding: 3em;
+}
+
+#some {
+    height: 100vh;
+    background-image: url(assets/img4.jpg);
+    background-position: top 15px center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+
+#some button, #about button {
+    background-color: #ff1744;
+}
+
+#some button:hover, #about button:hover {
+    background: black;
+}
+
+.cards button a {
+    text-decoration: none !important;
+    color: #f6f7f7;
+}
+.cards .card {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.cards button {
+    padding: 1em;
+    width: 100%;
+    background: #ff1744;
+    border: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+footer ul {
+    font-size: 30px;
+    margin: 0 auto;
+}
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+@media(max-width:993px) {
+   
+    #some {
+        background : #ff1744;
+    }
+}
